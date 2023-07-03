@@ -1,0 +1,404 @@
+
+.navbar {
+    background-color: #F7F1CF;
+
+}
+.usernamevalue {
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.search-large {
+    text-align: center;
+
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.backgroundall {
+    background-color: #F7F1CF;
+    background-size: cover;
+
+}
+
+.items-corosel {
+    height: 50%;
+    background-size: cover;
+}
+
+@media screen and (max-width:767px) {
+    .cart-icon {
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+
+    .search-class-for-large {
+        display: none;
+    }
+
+    .accessaries {
+        text-align: left;
+        padding: 0px;
+    }
+}
+
+@media screen and (min-width:768px),
+(max-width:991px) {
+
+
+    .accessaries {
+        text-align: left;
+
+    }
+
+    .search-class-for-large {
+        display: block;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .madhu {
+        height: 80vh;
+    }
+
+    .accessaries {
+        text-align: center;
+        margin-left: 50px;
+        padding: 20px;
+    }
+
+    .search-class-for-large {
+        display: block;
+    }
+
+    .cart-icon {
+
+        margin-left: 25px;
+        margin-right: 9px;
+    }
+}
+
+#courosal {
+    background-size: cover;
+}
+
+.logo {
+    height: 40px;
+    width: 50px;
+    border-radius: 80vh;
+}
+
+#phones:hover {
+    transition: 3s ease-in-out;
+    rotate: 1 1 1 360deg;
+}
+
+.search-icon {}
+
+.logo-heading {
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    font-family: Lobster;
+}
+
+#navitems {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.mobiles {
+    height: 100vh;
+
+}
+
+
+.itemscontainer {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.text {
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    font-weight: bold;
+    border-radius: 40px;
+    border: 3px solid #e879f9;
+    background-color: #ADF7DA;
+
+}
+
+.popular-item1 {
+    margin-top: 30px;
+    text-align: center;
+    height: 0px;
+    width: 70%;
+    margin-bottom: 50px;
+    border-radius: 20px;
+
+}
+
+.popular-background {
+    background-color: #F7F1CF;
+}
+
+.aa {}
+
+.old-price {
+    margin: 13px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.items-container {}
+
+.item-bg {
+
+    margin: 15px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding-bottom: 17px;
+}
+
+.tv-item {
+    background-size: cover;
+    border-radius: 30px;
+    text-align: center;
+    padding: 4%;
+}
+
+@media (max-width:756px) {
+    .popular-item1 {
+        height: 400px;
+    }
+
+    .tv-item {
+        width: 100%;
+    }
+
+    .popular-items {
+        height: 250px;
+        width: 75%;
+    }
+}
+
+@media (min-width:756px) {
+    .popular-item1 {
+        height: 500px;
+    }
+
+    .popular-items {
+        height: 230px;
+        width: 100%;
+    }
+
+    .tv-item {
+        width: 100%;
+    }
+}
+
+.popular-items {
+    background-size: cover;
+    border-radius: 30px;
+    text-align: center;
+    padding: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+.mibilebrandContainer {
+    background-color: #F9ED9E;
+}
+
+@media screen and (max-width:768px) {
+    .mibilebrandContainer {
+
+        background-size: cover;
+        padding: 15px;
+    }
+
+    .mobilebrandheading {
+        color: black;
+        font-family: Lobster;
+        font-weight: bold;
+
+    }
+
+    .mobileallBrands {
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+
+    .iphoneCon {
+        margin: 10px;
+        padding: 10px;
+        background-color: transparent;
+    }
+
+    .phonelogo {
+        height: 100px;
+        width: 100px;
+        border-radius: 100vh;
+
+    }
+
+    .mobilepara {
+        font-weight: bold;
+        font-family: Lobster;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .mibilebrandContainer {
+        background-size: cover;
+        padding: 25px;
+    }
+
+    .mobilebrandheading {
+        color: black;
+        font-family: Lobster;
+        font-weight: bold;
+
+        text-decoration-color: #0A86E7;
+    }
+
+    .mobileallBrands {
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+
+    .iphoneCon {
+        margin: 10px;
+        padding: 10px;
+        background-color: transparent;
+    }
+
+    .phonelogo {
+        height: 200px;
+        width: 200px;
+        border-radius: 100vh;
+
+    }
+
+    .mobilepara {
+        font-weight: bold;
+        font-family: Lobster;
+    }
+}
+
+.head {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.mob-heading {
+    margin-left: 0%;
+    font-family: Lobster;
+    padding: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+
+}
+
+.anchor-buy {
+    color: white;
+
+    background-color: rgb(38, 171, 175);
+}
+
+.mob-img {
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.mobile-container {
+    border-radius: 10px;
+    background-color: white;
+    padding: 8px;
+    margin: 10px;
+
+}
+
+.buy-btn {
+    text-align: center;
+    width: 89%;
+    border-radius: 20px;
+}
+
+.mobile-background {
+    background-color: #FAFFDB;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 30px;
+}
+
+
+
+.backbutton {
+    margin: 20px;
+    padding: 7px;
+    width: 100px;
+    color: white;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.login-background {
+    height: 100vh;
+    padding: 30px;
+    background-color: #FAFFDB;
+}
+
+
+
+
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.socialmedia-icons {
+    flex-wrap: wrap;
+}
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 100px;
+    flex-wrap: wrap;
+    height: 100px;
+    border-radius: 100vh;
+    margin: 15px;
+
+    padding: 27px;
+}
+
+.icon {
+    color: #10AB8C;
+    font-size: 40px;
+}
